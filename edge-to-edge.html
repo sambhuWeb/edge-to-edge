@@ -22,26 +22,33 @@
 </head>
 <body>
         <header>
-                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                  <a class="navbar-brand" href="#">Carousel</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand" href="#">Carousel</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="label label-info">Link</span></a>
-                      </li>
-                      <li class="nav-item">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class=" badge badge-danger">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="badge badge-success">Link</span></a>
+                        </li>
+                        <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
-                      </li>
+                        </li>
                     </ul>                    
-                  </div>
-                </nav>
-              </header>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar fixed-top navbar-light bg-light" style="top: 56px; width: 100%">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Sticky top</a>
+                </div>
+            </nav>
+        </header>
     <!-- <header>
         <div class="collapse bg-dark" id="navbarHeader">
             <div class="container">
@@ -86,7 +93,7 @@
 
     <main role="main">
     
-        <div class="edge-to-edge" style="background: yellow; padding: 3em 0em">
+        <div class="edge-to-edge" style="background: yellow; padding: 6em 0em">
             <div class="container text-center">            
                 <h1>1st row</h1>
                 <div class="d-flex justify-content-center align-items-center" style="height:100px; border: 1px solid red">
